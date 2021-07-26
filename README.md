@@ -38,7 +38,8 @@ After you cloned this repo run the following commands to build an executable:
 ```sh
 cd ping
 mkdir build && cd build
-cmake ../ -G "Unix Makefiles"
+cmake ../ -G "Unix Makefiles"               # for unix
+cmake ../ -G "Visual Studio 16 2019" -A x64 # for windows
 make
 ```
 
